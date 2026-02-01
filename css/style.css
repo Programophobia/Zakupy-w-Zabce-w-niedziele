@@ -10,6 +10,7 @@ body {
 
 button#start {
   background: #2ecc71;
+   background: rgba(24, 116, 19, 0.5); /* 0.5 = 50% przezroczystości */
   border: none;
   padding: 15px 30px;
   font-size: 20px;
@@ -22,7 +23,8 @@ button#start {
 
 button#start:hover {
   background: #27ae60;
-  transform: scale(1.05);
+   background: rgba(177, 207, 27, 0.5); /* 0.5 = 50% przezroczystości */
+  transform: scale(1.3);
 }
 
 #wynik {
