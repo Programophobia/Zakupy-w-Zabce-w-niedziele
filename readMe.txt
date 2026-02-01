@@ -9,7 +9,7 @@ Nagle okazało się, że człowiek w niedzielę żyje jak w survivalu.
 Trzeba było stworzyć narzędzie, które powie ci, co zjeść, zanim zaczniesz jeść powietrze.
 
 2. Apokalipsa Żabek
-Żabki zaczęły sie mnożyć jak p**ebane.
+Żabki zaczęły sie mnożyć jak pojebane.
 Każda ulica, każdy zakręt, każdy sen — wszędzie Żabka.
 Ale paradoksalnie: im więcej Żabek, tym trudniej zdecydować, co kupić.
 Chaos. Panika. Hot-dogi patrzą na ciebie z wyrzutem.
