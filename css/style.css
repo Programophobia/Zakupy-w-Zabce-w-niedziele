@@ -35,13 +35,13 @@ button#start:hover {
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(145, 28, 28, 0.1);
 }
 
 #wynik h2 {
   margin-bottom: 5px;
   color: #000000;
+   border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(145, 28, 28, 0.1);
 }
 
 #wynik p {
