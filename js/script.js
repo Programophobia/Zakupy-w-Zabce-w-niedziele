@@ -126,7 +126,6 @@ const browce = [
   'Karpackie mocne',
   'Karpackie czteropak',
   'Karpackie szesciopak',
-  'Argus',
   'Argus strong',
   'Argus czteropak',
   'Argus szesciopak',
