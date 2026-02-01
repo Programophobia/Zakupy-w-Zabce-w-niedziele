@@ -189,9 +189,9 @@ startBtn.addEventListener('click', () => {
   const picko = losuj(browce);
 
   // wyświetlanie
-  document.querySelector('#obiad').textContent = `${obiad.name} — ${obiad.price}`;
-  document.querySelector('#deser').textContent = `${deser.name} — ${deser.price}`;
-  document.querySelector('#picko').textContent = `${picko.name} — ${picko.price}`;
+  document.querySelector('#obiad').textContent = `${obiad.name} - ${obiad.price}`;
+  document.querySelector('#deser').textContent = `${deser.name} - ${deser.price}`;
+  document.querySelector('#picko').textContent = `${picko.name} - ${picko.price}`;
 
   // liczenie sumy
   const suma =
