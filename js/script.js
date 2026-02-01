@@ -172,6 +172,11 @@ const browce = [
 // FUNKCJE
 // =========================
 
+function parsePrice(priceString) {
+  // zamienia "12.99 zł" → 12.99
+  return parseFloat(priceString.replace('zł', '').trim());
+}
+
 function losuj(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
@@ -183,7 +188,18 @@ startBtn.addEventListener('click', () => {
   const deser = losuj(desery);
   const picko = losuj(browce);
 
-  document.querySelector('#obiad').textContent = `${obiad.name} - ${obiad.price}`;
-  document.querySelector('#deser').textContent = `${deser.name} - ${deser.price}`;
-  document.querySelector('#picko').textContent = `${picko.name} - ${picko.price}`;
+  // wyświetlanie
+  document.querySelector('#obiad').textContent = `${obiad.name} — ${obiad.price}`;
+  document.querySelector('#deser').textContent = `${deser.name} — ${deser.price}`;
+  document.querySelector('#picko').textContent = `${picko.name} — ${picko.price}`;
+
+  // liczenie sumy
+  const suma =
+    parsePrice(obiad.price) +
+    parsePrice(deser.price) +
+    parsePrice(picko.price);
+
+  // wyświetlanie sumy
+  document.querySelector('#razem').textContent =
+    `Razem: ${suma.toFixed(2)} zł`;
 });
