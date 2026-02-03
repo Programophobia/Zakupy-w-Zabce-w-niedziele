@@ -31,12 +31,13 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #0a0a0a; /* lub Twój kolor */
+  
   color: white;
   padding: 10px 20px;
   text-align: center;
   z-index: 999;
   max-height: 50px;
+   background: rgba(177, 207, 27, 0.6); /* 0.5 = 50% przezroczystości */
 }
 
 
