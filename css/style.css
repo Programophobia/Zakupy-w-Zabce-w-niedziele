@@ -20,6 +20,24 @@ button#start {
   font-weight: bold;
   transition: 0.2s;
 }
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #0a0a0a; /* lub Twój kolor */
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  z-index: 999;
+}
+
 
 button#start:hover {
   background: #27ae60;
