@@ -72,3 +72,12 @@ button#start:hover {
   margin-bottom: 20px;
   color: #000000;
 }
+
+@media (max-width: 768px) {
+  body {
+    background-image: url('../images/1.jpg'); /* możesz dać to samo, albo lżejszą wersję */
+  /*  background-size: cover;
+    background-position: center;
+    background-attachment: scroll; /* na mobile lepiej niż fixed */
+  }
+}
