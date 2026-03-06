@@ -1,4 +1,4 @@
- https://zakupy-w-zabce.netlify.app/
+https://zakupy-w-zabce.netlify.app/
 
 🥒 Dlaczego powstała ta apka?
 Istnieją dwa fundamentalne wydarzenia, które zmieniły bieg historii i doprowadziły do stworzenia tej aplikacji:
