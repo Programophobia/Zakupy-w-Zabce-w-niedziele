@@ -125,7 +125,7 @@ const desery = [
 // =========================
 
 const browce = [
-  { name: 'Harnas', price: '3.29 zł' },
+ // { name: 'Harnas', price: '3.29 zł' },
   { name: 'Harnas czteropak', price: '11.99 zł' },
   { name: 'Harnas szesciopak', price: '17.99 zł' },
 
@@ -164,7 +164,8 @@ const browce = [
 
   { name: 'Argus strong', price: '2.89 zł' },
   { name: 'Argus czteropak', price: '8.99 zł' },
-  { name: 'Argus szesciopak', price: '13.49 zł' },
+  { name: 'Argus szesciopak', price: '13.49 zł' },//
+  { name: 'Imperator 12%', price: '5.99 zł' }
 ];
 
 
