@@ -1,6 +1,10 @@
 // =========================
 // OBIADY z cenami
 // =========================
+// Zmiana tekstu na telefonach
+if (/Mobi|Android/i.test(navigator.userAgent)) {
+    document.getElementById("start").textContent = "Zaszejkuj grubasku telefonem";
+}
 
 const obiady = [
   { name: 'Pierogi z mięsem', price: '12.99 zł' },
@@ -205,7 +209,13 @@ startBtn.addEventListener('click', () => {
     parsePrice(deser.price) +
     parsePrice(picko.price);
 
+  
+
   // wyświetlanie sumy
   document.querySelector('#razem').textContent =
     `Razem: ${suma.toFixed(2)} zł`;
 });
+// Zmiana tekstu na telefonach
+if (/Mobi|Android/i.test(navigator.userAgent)) {
+    document.getElementById("start").textContent = "Zaszejkuj grubasku telefonem";
+}
