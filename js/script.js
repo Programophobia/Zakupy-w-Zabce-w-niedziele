@@ -125,46 +125,51 @@ const desery = [
 // =========================
 
 const browce = [
- // { name: 'Harnas', price: '3.29 zł' },
+  { name: 'Harnas', price: '3.29 zł' },
   { name: 'Harnas czteropak', price: '11.99 zł' },
   { name: 'Harnas szesciopak', price: '17.99 zł' },
-
+{ name: 'Imperator 12%', price: '5.99 zł' },
   { name: 'Tyskie', price: '3.99 zł' },
   { name: 'Tyskie czteropak', price: '13.99 zł' },
   { name: 'Tyskie szesciopak', price: '19.99 zł' },
-
+{ name: 'Imperator 12%', price: '5.99 zł' },
   { name: 'Lech jasny', price: '4.29 zł' },
   { name: 'Lech free', price: '4.49 zł' },
   { name: 'Lech czteropak', price: '14.49 zł' },
   { name: 'Lech szesciopak', price: '20.49 zł' },
-
+{ name: 'Imperator 12%', price: '5.99 zł' },
   { name: 'Zywiec', price: '4.49 zł' },
   { name: 'Zywiec czteropak', price: '14.99 zł' },
   { name: 'Zywiec szesciopak', price: '20.99 zł' },
-
+{ name: 'Imperator 12%', price: '5.99 zł' },
   { name: 'Perla chmielowa', price: '3.79 zł' },
   { name: 'Perla mocna', price: '3.99 zł' },
   { name: 'Perla czteropak', price: '12.99 zł' },
   { name: 'Perla szesciopak', price: '18.99 zł' },
-
+{ name: 'Imperator 12%', price: '5.99 zł' },
   { name: 'Warka jasna', price: '3.69 zł' },
   { name: 'Warka strong', price: '3.99 zł' },
   { name: 'Warka czteropak', price: '12.49 zł' },
   { name: 'Warka szesciopak', price: '18.49 zł' },
-
+{ name: 'Imperator 12%', price: '5.99 zł' },
   { name: 'Okocim jasne', price: '3.79 zł' },
   { name: 'Okocim mocne', price: '3.99 zł' },
   { name: 'Okocim czteropak', price: '12.99 zł' },
   { name: 'Okocim szesciopak', price: '18.99 zł' },
-
+{ name: 'Imperator 12%', price: '5.99 zł' },
   { name: 'Karpackie', price: '2.99 zł' },
   { name: 'Karpackie mocne', price: '3.29 zł' },
   { name: 'Karpackie czteropak', price: '9.99 zł' },
   { name: 'Karpackie szesciopak', price: '14.99 zł' },
-
+{ name: 'Imperator 12%', price: '5.99 zł' },
+{ name: 'Imperator 12%', price: '5.99 zł' },
   { name: 'Argus strong', price: '2.89 zł' },
   { name: 'Argus czteropak', price: '8.99 zł' },
-  { name: 'Argus szesciopak', price: '13.49 zł' },//
+  { name: 'Argus szesciopak', price: '13.49 zł' },
+  { name: 'Imperator 12%', price: '5.99 zł' },
+  { name: 'Imperator 12%', price: '5.99 zł' },
+  { name: 'Imperator 12%', price: '5.99 zł' },
+  { name: 'Imperator 12%', price: '5.99 zł' },
   { name: 'Imperator 12%', price: '5.99 zł' }
 ];
 
