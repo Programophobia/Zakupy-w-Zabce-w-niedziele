@@ -1,3 +1,11 @@
+// iOS/Android permission for motion sensors
+if (typeof DeviceMotionEvent.requestPermission === "function") {
+    document.body.addEventListener("click", () => {
+        DeviceMotionEvent.requestPermission().catch(() => {});
+    }, { once: true });
+}
+
+
 // =========================
 // OBIADY z cenami
 // =========================
