@@ -227,3 +227,33 @@ startBtn.addEventListener('click', () => {
 if (/Mobi|Android/i.test(navigator.userAgent)) {
     document.getElementById("start").textContent = "Zaszejkuj grubasku telefonem";
 }
+// Shake detection
+let lastX = null;
+let lastY = null;
+let lastZ = null;
+let shakeThreshold = 15; // im mniejsza wartość, tym czulsze
+
+function handleShake(event) {
+    const { x, y, z } = event.accelerationIncludingGravity;
+
+    if (lastX !== null) {
+        let deltaX = Math.abs(x - lastX);
+        let deltaY = Math.abs(y - lastY);
+        let deltaZ = Math.abs(z - lastZ);
+
+        if (deltaX + deltaY + deltaZ > shakeThreshold) {
+            // Wywołaj to samo, co click
+            losuj();
+        }
+    }
+
+    lastX = x;
+    lastY = y;
+    lastZ = z;
+}
+
+if (window.DeviceMotionEvent) {
+    window.addEventListener("devicemotion", handleShake);
+}
+
+
