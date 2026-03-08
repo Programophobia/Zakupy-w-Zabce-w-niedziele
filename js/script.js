@@ -11,7 +11,7 @@ if (typeof DeviceMotionEvent.requestPermission === "function") {
 // =========================
 // Zmiana tekstu na telefonach
 if (/Mobi|Android/i.test(navigator.userAgent)) {
-    document.getElementById("start").textContent = "Zaszejkuj grubasku telefonem";
+    document.getElementById("start").textContent = "Zaszejkuj grubasku telefonem albo kliknij tu";
 }
 
 const obiady = [
@@ -225,7 +225,7 @@ startBtn.addEventListener('click', () => {
 });
 // Zmiana tekstu na telefonach
 if (/Mobi|Android/i.test(navigator.userAgent)) {
-    document.getElementById("start").textContent = "Zaszejkuj grubasku telefonem";
+    document.getElementById("start").textContent = "Zaszejkuj grubasku telefonem albo kliknij tu";
 }
 // Shake detection
 let lastX = null;
