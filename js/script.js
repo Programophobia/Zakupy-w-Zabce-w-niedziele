@@ -243,7 +243,7 @@ function handleShake(event) {
 
         if (deltaX + deltaY + deltaZ > shakeThreshold) {
             // Wywołaj to samo, co click
-            losuj();
+            startBtn.click();
         }
     }
 
