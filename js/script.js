@@ -137,7 +137,7 @@ const desery = [
 // =========================
 
 const browce = [
-  { name: 'Imperator 12%', price: '5.99 zł' },
+  { name: 'Imperator 12%', price: '5.99 zł' }
 ],
   
 
