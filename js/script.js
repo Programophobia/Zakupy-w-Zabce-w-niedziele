@@ -137,7 +137,7 @@ const desery = [
 // =========================
 
 const browce = [
-  { name: 'szejk proteinowy dla Macka' },
+  { name: 'Szejk proteinowy dla Maćka' },
 4.49 zł' }],
   
 
